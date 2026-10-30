@@ -3,7 +3,7 @@
 //
 // Architecture (a real Mastra workflow, three steps):
 //   1. prepare  — chunk the document (paragraph-aware, tail-sampled)
-//   2. extract  — per chunk, the Phantom agent (Llama 3.3 70B, open-weight)
+//   2. extract  — per chunk, the Phantom agent (GPT-OSS 120B, open-weight)
 //                 pulls candidate clauses with verbatim quotes and scores
 //   3. compose  — the agent dedupes, ranks, titles and explains the final
 //                 hauntings, and writes the verdict; the Haunt Score itself

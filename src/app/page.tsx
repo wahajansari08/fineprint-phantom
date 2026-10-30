@@ -226,7 +226,7 @@ export default function Home() {
               {
                 n: 'II',
                 title: 'An open model hunts',
-                body: 'A Mastra agent powered by Llama 3.3 70B (an open-weight model) extracts candidate clauses from each passage, quoting them verbatim.',
+                body: 'A Mastra agent powered by GPT-OSS 120B (an open-weight model) extracts candidate clauses from each passage, quoting them verbatim.',
               },
               {
                 n: 'III',
