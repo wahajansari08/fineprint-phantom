@@ -2,11 +2,11 @@
   "name": "fineprint-phantom",
   "version": "0.1.0",
   "private": true,
-  "description": "FinePrint Phantom — summon the clauses hiding in the fine print. A Mastra agent over an open-weight model extracts the scariest clauses from any Terms of Service or privacy policy. Built for DEV Hacktoberfest Week 4: Ghost in the Machine.",
+  "description": "FinePrint Phantom \u2014 summon the clauses hiding in the fine print. A Mastra agent over an open-weight model extracts the scariest clauses from any Terms of Service or privacy policy. Built for DEV Hacktoberfest Week 4: Ghost in the Machine.",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {

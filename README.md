@@ -53,7 +53,7 @@ same workflow runs on a built-in heuristic engine that pattern-matches the
 actual document and still quotes only real clauses from it. The UI labels this
 clearly as Demo mode — nothing is faked silently.
 
-The model is **Llama 3.3 70B** (`llama-3.3-70b-versatile`), an open-weight
+The model is **GPT-OSS 120B** (`openai/gpt-oss-120b`), an open-weight
 model, served via Groq's free tier. Switching providers later is a one-file
 change in `src/lib/provider.ts` / `src/lib/phantom.ts` — the workflow speaks
 JSON, not vendor.
